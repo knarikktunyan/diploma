@@ -1,0 +1,5 @@
+,normal,noisy,distorted,anomalous
+normal,113,0,12,0
+noisy,0,122,2,1
+distorted,18,0,106,1
+anomalous,13,7,10,95

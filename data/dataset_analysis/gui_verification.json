@@ -1,0 +1,59 @@
+{
+  "platform": "offscreen",
+  "application_starts": true,
+  "feature_schema_version": 2,
+  "feature_count": 13,
+  "verification_method": "Scripted Qt event-loop checks; file-dialog responses supplied by test",
+  "no_signal_errors": "passed",
+  "signal_loading": "passed",
+  "waveform": "passed",
+  "feature_analysis": "passed",
+  "frequency_spectrum": "passed",
+  "classification": "passed",
+  "export": "passed",
+  "invalid_input": "passed",
+  "overwrite_protection": "passed",
+  "predictions": [
+    {
+      "signal": "normal",
+      "model": "Random Forest (default)",
+      "predicted": "Normal"
+    },
+    {
+      "signal": "normal",
+      "model": "SVM",
+      "predicted": "Normal"
+    },
+    {
+      "signal": "noisy",
+      "model": "Random Forest (default)",
+      "predicted": "Noisy"
+    },
+    {
+      "signal": "noisy",
+      "model": "SVM",
+      "predicted": "Noisy"
+    },
+    {
+      "signal": "distorted",
+      "model": "Random Forest (default)",
+      "predicted": "Distorted"
+    },
+    {
+      "signal": "distorted",
+      "model": "SVM",
+      "predicted": "Normal"
+    },
+    {
+      "signal": "anomalous",
+      "model": "Random Forest (default)",
+      "predicted": "Anomalous"
+    },
+    {
+      "signal": "anomalous",
+      "model": "SVM",
+      "predicted": "Anomalous"
+    }
+  ],
+  "status": "passed"
+}

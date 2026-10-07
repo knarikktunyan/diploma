@@ -1,0 +1,11 @@
+model,anomaly_type,count,recall
+random_forest,amplitude_decrease,30,0.9
+random_forest,amplitude_increase,19,1.0
+random_forest,dc_offset_change,31,1.0
+random_forest,frequency_change,22,0.45454545454545453
+random_forest,temporary_amplitude,23,0.6086956521739131
+svm,amplitude_decrease,30,0.8666666666666667
+svm,amplitude_increase,19,1.0
+svm,dc_offset_change,31,1.0
+svm,frequency_change,22,0.4090909090909091
+svm,temporary_amplitude,23,0.43478260869565216

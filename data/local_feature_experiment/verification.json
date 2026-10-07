@@ -1,0 +1,27 @@
+{
+  "status": "passed",
+  "fresh_test": {
+    "root": "/mnt/c/Users/asd/OneDrive/Desktop/diploma/data/local_feature_experiment/fresh_test/raw",
+    "classes": {
+      "normal": 500,
+      "noisy": 500,
+      "distorted": 500,
+      "anomalous": 500
+    },
+    "total": 2000,
+    "samples_per_signal": 500,
+    "sampling_rate": 100000,
+    "csv_validation": "passed",
+    "signal_length_validation": "passed",
+    "time_validation": "passed",
+    "finite_numeric_validation": "passed",
+    "unique_signals": 2000,
+    "source": "Synthetic experimental dataset"
+  },
+  "original_signal_overlap": 0,
+  "training_only_selection": true,
+  "locked_before_test_generation": true,
+  "saved_model_roundtrips": 8,
+  "active_models_unchanged": true,
+  "test_feature_sha256": "67622eb643f7d6d2383052c3b720f2c1414fca7bfdbcd4b4f08da2f030af4640"
+}

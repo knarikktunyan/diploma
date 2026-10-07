@@ -1,0 +1,8 @@
+{
+  "seed": 4242,
+  "signals_per_class": 500,
+  "sampling_rate": 100000,
+  "duration": 0.005,
+  "generator_version": 2,
+  "source": "Synthetic signals, not circuit simulator output"
+}

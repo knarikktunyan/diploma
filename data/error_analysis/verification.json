@@ -1,0 +1,10 @@
+{
+  "tests": {
+    "passed": 24,
+    "failed": 0,
+    "skipped": 0
+  },
+  "frozen_input_hashes": "unchanged",
+  "classification_reports": "reproduced",
+  "scope": "descriptive error review and documentation; active dataset/features/models/GUI preserved"
+}

@@ -1,0 +1,4 @@
+{
+  "model": "random_forest",
+  "selection": "Highest macro F1 in training-only 3-fold cross-validation"
+}

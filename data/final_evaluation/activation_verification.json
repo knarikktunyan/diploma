@@ -1,0 +1,22 @@
+{
+  "status": "passed",
+  "selected_model": "random_forest",
+  "feature_schema_version": 2,
+  "checks": [
+    {
+      "model": "random_forest",
+      "frozen_predictions_matched": 2000,
+      "raw_csv_roundtrips": 8,
+      "artifact_sha256": "ff1fc9e933e72f408237761ec16190516aac2142dc18ca734cf1824b28fdedc5"
+    },
+    {
+      "model": "svm",
+      "frozen_predictions_matched": 2000,
+      "raw_csv_roundtrips": 8,
+      "artifact_sha256": "3b8d4b3f4211db42b3bef9a1de6c3eb410fb5e6fc4cbb8e0cd647ae8597793df"
+    }
+  ],
+  "baseline_dataset_and_models_preserved": true,
+  "refitting_performed": false,
+  "test_used_for_selection": false
+}

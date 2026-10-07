@@ -1,0 +1,15 @@
+{
+  "scope": "Descriptive frozen-holdout review; no training or tuning",
+  "input_sha256": {
+    "data/dataset.csv": "b5bc2d3cbf7df88fac2ae386093487cdb2454ab51a73795dac577e05f705207b",
+    "data/raw/generation_metadata.csv": "6d9ddf7d39f7c6022a35524a02fa6899191f9faf62441d3f30c0f7a555c3d549",
+    "data/feature_analysis/split.csv": "7115f8476d780682c7528eeb376539215299d101e24a566d067ffcc1bce39e70",
+    "data/feature_analysis/heldout_predictions.csv": "dfa9d246e33b05dedab600d6297937bad6a4ba317f6805f6375f424cbac7aa5b",
+    "data/feature_analysis/model_comparison.csv": "a5830688198b0e7f3f760a0dc49553b344933c37a4b472eabe7df27d23f08301",
+    "models/random_forest.pkl": "6769656eddec41e9d050dff800c7816655943d2a0c0208f357a1d0fc071532cb",
+    "models/baseline_selection.json": "3069dc62bddf9400c8be7ff27fd76d0b4c898f353ba63b754fce91d684a69bf2",
+    "models/svm.pkl": "cff3cd02b76fee7421628f8172016fdbd55508c2ae75e13adb41abe030bc909a"
+  },
+  "test_records_per_model": 500,
+  "new_features_or_models": false
+}

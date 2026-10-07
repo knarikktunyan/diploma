@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "feature_shape": [
+    2000,
+    12
+  ],
+  "raw_processed_feature_consistency": "passed",
+  "original_active_models_unchanged_before_retraining": true
+}

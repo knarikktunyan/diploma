@@ -1,0 +1,7 @@
+{
+  "model": "random_forest",
+  "artifact": "time_local/random_forest.pkl",
+  "feature_schema_version": 2,
+  "selection": "Highest locked training-only three-fold macro F1",
+  "experiment": "data/local_feature_experiment"
+}

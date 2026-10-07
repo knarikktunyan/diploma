@@ -1,0 +1,2 @@
+filename,sampling_rate,mean,rms,max,min,peak_to_peak,std,dominant_frequency,spectral_energy,second_harmonic_ratio,third_harmonic_ratio,predicted_class
+/mnt/c/Users/asd/OneDrive/Desktop/diploma/data/raw/normal/normal_001.csv,100000.00000000001,-0.0016669969141565133,0.6638467498618674,0.9369076521076508,-0.936921311007614,1.873828963115265,0.6638446568463536,1200.0000000000002,55086.91457533952,0.006661825666146586,0.003727529089862802,Normal

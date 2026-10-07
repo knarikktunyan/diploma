@@ -1,0 +1,27 @@
+{
+  "dataset_sha256": "b5bc2d3cbf7df88fac2ae386093487cdb2454ab51a73795dac577e05f705207b",
+  "generation_config": {
+    "seed": 42,
+    "signals_per_class": 500,
+    "sampling_rate": 100000,
+    "duration": 0.005,
+    "generator_version": 2,
+    "source": "Synthetic signals, not circuit simulator output"
+  },
+  "training_samples": 1500,
+  "test_samples": 500,
+  "models_sha256": {
+    "random_forest.pkl": "6769656eddec41e9d050dff800c7816655943d2a0c0208f357a1d0fc071532cb",
+    "selected_model.json": "3069dc62bddf9400c8be7ff27fd76d0b4c898f353ba63b754fce91d684a69bf2",
+    "svm.pkl": "cff3cd02b76fee7421628f8172016fdbd55508c2ae75e13adb41abe030bc909a"
+  },
+  "packages": {
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "pandas": "3.0.5",
+    "scikit-learn": "1.9.1",
+    "matplotlib": "3.11.1",
+    "joblib": "1.6.0",
+    "PyQt6": "6.11.0"
+  }
+}

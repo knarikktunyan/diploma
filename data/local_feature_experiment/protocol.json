@@ -1,0 +1,82 @@
+{
+  "training_source": "Original seed-42 training split only; reviewed 500-record holdout excluded",
+  "training_cv": "3-fold stratified macro F1, seed 42; same folds for every group",
+  "feature_groups": {
+    "baseline": [
+      "mean",
+      "rms",
+      "max",
+      "min",
+      "peak_to_peak",
+      "std",
+      "dominant_frequency",
+      "spectral_energy",
+      "second_harmonic_ratio",
+      "third_harmonic_ratio"
+    ],
+    "amplitude_offset": [
+      "mean",
+      "rms",
+      "max",
+      "min",
+      "peak_to_peak",
+      "std",
+      "dominant_frequency",
+      "spectral_energy",
+      "second_harmonic_ratio",
+      "third_harmonic_ratio",
+      "window_rms_variation",
+      "window_mean_variation"
+    ],
+    "frequency": [
+      "mean",
+      "rms",
+      "max",
+      "min",
+      "peak_to_peak",
+      "std",
+      "dominant_frequency",
+      "spectral_energy",
+      "second_harmonic_ratio",
+      "third_harmonic_ratio",
+      "crossing_period_variation"
+    ],
+    "combined": [
+      "mean",
+      "rms",
+      "max",
+      "min",
+      "peak_to_peak",
+      "std",
+      "dominant_frequency",
+      "spectral_energy",
+      "second_harmonic_ratio",
+      "third_harmonic_ratio",
+      "window_rms_variation",
+      "window_mean_variation",
+      "crossing_period_variation"
+    ]
+  },
+  "local_feature_version": 1,
+  "local_parameters": {
+    "window_size": "floor(N/4)",
+    "hop": "floor(window_size/2)",
+    "include_final_window": true,
+    "crossing_smoothing_samples": 11,
+    "smoothing_polynomial": 3
+  },
+  "models": "Existing RF(200 trees) and SVM(StandardScaler\u2192RBF SVC); no hyperparameter search",
+  "fresh_test": {
+    "seed": 4242,
+    "count_per_class": 500,
+    "source": "Same unchanged synthetic generator"
+  },
+  "selection": "Highest mean training-fold macro F1 per model, prefer earlier/smaller group for ties",
+  "protected_baseline_sha256": {
+    "data/dataset.csv": "b5bc2d3cbf7df88fac2ae386093487cdb2454ab51a73795dac577e05f705207b",
+    "models/random_forest.pkl": "6769656eddec41e9d050dff800c7816655943d2a0c0208f357a1d0fc071532cb",
+    "models/selected_model.json": "3069dc62bddf9400c8be7ff27fd76d0b4c898f353ba63b754fce91d684a69bf2",
+    "models/svm.pkl": "cff3cd02b76fee7421628f8172016fdbd55508c2ae75e13adb41abe030bc909a"
+  },
+  "promotion": "No active model/schema/GUI changes in this experiment"
+}

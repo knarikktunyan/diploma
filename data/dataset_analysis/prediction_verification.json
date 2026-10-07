@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "saved_models": [
+    "random_forest",
+    "svm"
+  ],
+  "holdout_samples_per_model": 500,
+  "raw_csv_checks_per_model": 36,
+  "svm_scaler_fitted_samples": 1500,
+  "metadata_and_features": "verified",
+  "all_five_anomaly_subtypes": "included"
+}

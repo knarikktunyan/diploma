@@ -1,0 +1,18 @@
+{
+  "root": "data/processed",
+  "classes": {
+    "normal": 500,
+    "noisy": 500,
+    "distorted": 500,
+    "anomalous": 500
+  },
+  "total": 2000,
+  "samples_per_signal": 500,
+  "sampling_rate": 100000,
+  "csv_validation": "passed",
+  "signal_length_validation": "passed",
+  "time_validation": "passed",
+  "finite_numeric_validation": "passed",
+  "unique_signals": 2000,
+  "source": "Synthetic experimental dataset"
+}

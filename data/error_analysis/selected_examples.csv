@@ -1,0 +1,9 @@
+model,subtype,outcome,filename,predicted,change_start_seconds,image
+random_forest,frequency_change,correct,anomalous_044.csv,anomalous,0.00214,random_forest_frequency_change_correct.png
+random_forest,frequency_change,missed,anomalous_081.csv,normal,0.00109,random_forest_frequency_change_missed.png
+random_forest,temporary_amplitude,correct,anomalous_050.csv,anomalous,0.00257,random_forest_temporary_amplitude_correct.png
+random_forest,temporary_amplitude,missed,anomalous_015.csv,distorted,0.00178,random_forest_temporary_amplitude_missed.png
+svm,frequency_change,correct,anomalous_053.csv,anomalous,0.00234,svm_frequency_change_correct.png
+svm,frequency_change,missed,anomalous_044.csv,normal,0.00214,svm_frequency_change_missed.png
+svm,temporary_amplitude,correct,anomalous_051.csv,anomalous,0.0032,svm_temporary_amplitude_correct.png
+svm,temporary_amplitude,missed,anomalous_015.csv,distorted,0.00178,svm_temporary_amplitude_missed.png

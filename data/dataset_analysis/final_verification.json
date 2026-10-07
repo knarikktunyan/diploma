@@ -1,0 +1,15 @@
+{
+  "unit_tests": {
+    "passed": 20,
+    "failed": 0,
+    "skipped": 0
+  },
+  "original_reference_checksums": "passed",
+  "active_artifact_checksums": "passed",
+  "gui_offscreen": "passed",
+  "gui_native": "Wayland connection not permitted in agent environment",
+  "original_signals_preserved": 80,
+  "original_gui_export_preserved": true,
+  "generator_seed": 42,
+  "signals_per_class": 500
+}

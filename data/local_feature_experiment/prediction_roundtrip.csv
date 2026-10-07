@@ -1,0 +1,9 @@
+model,filename,predicted_class
+random_forest,normal_001.csv,Normal
+random_forest,noisy_001.csv,Noisy
+random_forest,distorted_001.csv,Distorted
+random_forest,anomalous_001.csv,Anomalous
+svm,normal_001.csv,Normal
+svm,noisy_001.csv,Noisy
+svm,distorted_001.csv,Distorted
+svm,anomalous_001.csv,Anomalous

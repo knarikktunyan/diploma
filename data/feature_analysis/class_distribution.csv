@@ -1,0 +1,5 @@
+class,count
+normal,500
+noisy,500
+distorted,500
+anomalous,500

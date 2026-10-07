@@ -1,0 +1,47 @@
+{
+  "selected": {
+    "random_forest": {
+      "group": "combined",
+      "features": [
+        "mean",
+        "rms",
+        "max",
+        "min",
+        "peak_to_peak",
+        "std",
+        "dominant_frequency",
+        "spectral_energy",
+        "second_harmonic_ratio",
+        "third_harmonic_ratio",
+        "window_rms_variation",
+        "window_mean_variation",
+        "crossing_period_variation"
+      ],
+      "training_cv_f1": 0.9552398605166704,
+      "model_sha256": "dd1b79574e99293195250df93ea8ed28bbf5476ac800f284f19a398d113b77c2"
+    },
+    "svm": {
+      "group": "combined",
+      "features": [
+        "mean",
+        "rms",
+        "max",
+        "min",
+        "peak_to_peak",
+        "std",
+        "dominant_frequency",
+        "spectral_energy",
+        "second_harmonic_ratio",
+        "third_harmonic_ratio",
+        "window_rms_variation",
+        "window_mean_variation",
+        "crossing_period_variation"
+      ],
+      "training_cv_f1": 0.9092452561181741,
+      "model_sha256": "664e2361d88009ef82440e5f7d42f8dc61d31ea8b081a373b7cce1593bc6ea3e"
+    }
+  },
+  "training_feature_sha256": "ac55345d655fde6c8667c6a5b9f1da8f2274296eaf4d9edf43ffb408d282ec01",
+  "protocol_sha256": "baecf9b95e0b2d6dd4f56df258cb12cd5eb6755ca4eedd74582c62374d3d7c09",
+  "fresh_test_generated": false
+}
